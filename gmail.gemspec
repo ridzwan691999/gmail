@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   "
   s.version = Gmail::VERSION
   s.platform = Gem::Platform::RUBY
-  s.authors = ["Chris Kowalik"]
-  s.email = ["chris@nu7hat.ch"]
-  s.homepage = "http://github.com/nu7hatch/gmail"
+  s.authors = ["Muhammad Ridzwan Dinesh"]
+  s.email = ["daniel040522@gmail.com"]
+  s.homepage = "http://github.com/daniel040522@gmail.com/gmail"
   
   # runtime dependencies
   s.add_dependency "mail", ">= 2.2.1"
