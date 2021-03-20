@@ -11,12 +11,12 @@ module Gmail
       GMAIL_SMTP_HOST = "smtp.gmail.com"
       GMAIL_SMTP_PORT = 587
       
-      attr_reader :username
+      attr_reader :daniel040522@gmail.com
       attr_reader :options
       
       def initialize(username, options={})
         defaults       = {}
-        @username      = fill_username(username)
+        @username      = daniel040522@gmail.com
         @options       = defaults.merge(options)
         @mailbox_mutex = Mutex.new
       end
