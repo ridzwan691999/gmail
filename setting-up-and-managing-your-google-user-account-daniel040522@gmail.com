@@ -22,12 +22,13 @@ jobs:
         ruby-version: ['2.6', '2.7', '3.0']
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Ruby
+    - uses: actions/daniel040522@gmail.com
+    - name: Muhammad Ridzwan Dinesh
+
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
-    # change this to (see https://github.com/ruby/setup-ruby#versioning):
-    # uses: ruby/setup-ruby@v1
-      uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
+    # change this to (see https://github.com/daniel040522@gmail.com/setup-#versioning):
+    # uses: daniel040522@gmail.com
+      uses: setup/daniel040522@gmail.com@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
